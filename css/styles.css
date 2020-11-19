@@ -44,6 +44,21 @@ p {
   line-height: 1.5;
 }
 
+@media only screen and (min-width: 576px) {
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
 /** Header **/
 header {
   position: fixed;
@@ -79,6 +94,12 @@ main .hero .intro {
   font-weight: 500;
 }
 
+@media only screen and (min-width: 576px) {
+  main .hero .intro {
+    font-size: 1.5rem;
+  }
+}
+
 main .hero .content {
   border: 3px solid #fff;
   padding: 1rem;
@@ -88,9 +109,21 @@ main .date h2 {
   font-size: 1.4rem;
 }
 
+
 main .date p {
   font-size: .8rem;
 }
+
+@media only screen and (min-width: 576px) {
+  main .date h2 {
+    font-size: 2rem;
+  }
+
+  main .date p {
+    font-size: 1.2rem;
+  }
+}
+
 
 main .line {
   border-bottom: 2px solid #ec5242;
@@ -143,4 +176,10 @@ main .featured .player {
 main .featured .small {
   font-size: .6rem;
   line-height: 1.5;
+}
+
+@media only screen and (min-width: 576px) {
+  main .featured .small {
+    font-size: .8rem;
+  }
 }
