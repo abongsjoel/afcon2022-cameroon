@@ -1,5 +1,9 @@
 /*** General ***/
 
+body {
+  font-family: 'Cocogoose', 'Lato', sans-serif;
+}
+
 .c-main {
   color: #272a31;
 }
@@ -24,5 +28,11 @@
 
 /** Header **/
 header nav .fa-bars {
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+
+header nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
