@@ -134,7 +134,7 @@ main .featured .player {
   width: 120px;
   height: 120px;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
   position: absolute;
   top: 12px;
   left: 12px;
