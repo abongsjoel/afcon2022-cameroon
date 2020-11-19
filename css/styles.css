@@ -25,6 +25,11 @@ body {
 .wrapper {
   padding: 20px;
 }
+p {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
 
 /** Header **/
 header nav .fa-bars {
@@ -39,4 +44,25 @@ header nav a {
 
 header .navbar {
   padding: 0;
+}
+
+/** Main **/
+main .hero {
+  background-color: #daf9ff;
+}
+main .hero .welcome {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 1rem 0;
+  line-height: 1.2;
+}
+
+main .hero .intro {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+main .hero .content {
+  border: 3px solid #fff;
+  padding: 1rem;
 }
