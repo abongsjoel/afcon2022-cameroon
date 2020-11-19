@@ -93,8 +93,13 @@ main .date p {
 }
 
 main .line {
-  border-bottom: 1px solid #ec5242;
+  border-bottom: 2px solid #ec5242;
   width: 40px;
+}
+
+main .line-short {
+  border-bottom: 2px solid #d3d3d3;
+  width: 20px;
 }
 
 main .fixtures .image {
@@ -118,4 +123,24 @@ main .fixtures .teams {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
   gap: 10px;
+}
+
+main .featured .checkboard {
+  width: 60px;
+  height: 60px;
+}
+
+main .featured .player {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+main .featured .small {
+  font-size: .6rem;
+  line-height: 1.5;
 }
