@@ -1,0 +1,20 @@
+/*** General ***/
+
+.c-main {
+  color: #272a31;
+}
+.c-sec {
+  color: #ec5242;
+}
+.c-grey {
+  color: #d3d3d3;
+}
+.bg-main {
+  background-color: #272a31;
+}
+.bg-sec {
+  background-color: #ec5242;
+}
+.bg-grey {
+  background-color: #d3d3d3;
+}
