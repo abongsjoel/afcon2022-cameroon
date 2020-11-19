@@ -26,18 +26,22 @@ body {
   padding: 20px;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 1.8rem;
   font-weight: 900;
   line-height: 1.2;
 }
 h3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1rem;
   font-weight: 600;
 }
 p {
-  font-size: 1rem;
+  font-size: .7rem;
   font-weight: 600;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 /** Header **/
@@ -69,12 +73,9 @@ main .hero {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-/* main .hero .welcome {
-  margin: 1rem 0;
-} */
 
 main .hero .intro {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -84,21 +85,21 @@ main .hero .content {
 }
 
 main .date h2 {
-  font-size: 2.2rem;
+  font-size: 1.4rem;
 }
 
 main .date p {
-  font-size: 1.2rem;
+  font-size: .8rem;
 }
 
 main .line {
   border-bottom: 1px solid #ec5242;
-  width: 50px;
+  width: 40px;
 }
 
 main .fixtures .image {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
   object-position: center;
   border-radius: 10px;
@@ -109,5 +110,12 @@ main .fixture {
 }
 
 main .fixtures li {
-  font-size: .8rem;
+  font-size: .6rem;
+}
+
+main .fixtures .teams {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
 }
