@@ -30,6 +30,10 @@ h2 {
   font-weight: 900;
   line-height: 1.2;
 }
+h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
 p {
   font-size: 1rem;
   font-weight: 600;
@@ -85,4 +89,9 @@ main .date h2 {
 
 main .date p {
   font-size: 1.2rem;
+}
+
+main .line {
+  border-bottom: 1px solid #ec5242;
+  width: 50px;
 }
