@@ -203,6 +203,21 @@ main .fixtures .image {
 
 main .fixture {
   background-color: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: 100px;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  main .fixture {
+    padding: 15px 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 10px 50px;
+    align-items: center;
+    justify-items: center;
+    row-gap: 15px;
+  }
 }
 
 main .fixtures li {
@@ -213,9 +228,15 @@ main .fixtures .teams {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
-  justify-items: end;
-  gap: 10px;
+  justify-items: start;
+  row-gap: 15px;
   /* background-color: red; */
+}
+
+@media only screen and (min-width: 768px) {
+  main .fixtures .teams {
+    justify-items: center;
+  }
 }
 
 main .featured .checkboard {
