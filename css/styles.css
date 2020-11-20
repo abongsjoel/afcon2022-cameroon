@@ -79,8 +79,11 @@ p {
 
 /** Header **/
 header .mobile {
+  background-color: #daf9ff;
   position: fixed;
   top: 0;
+  z-index: 10;
+  width: 100%;
 }
 
 header nav .fa-bars {
