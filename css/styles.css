@@ -64,7 +64,7 @@ h4 {
 
 p {
   font-size: 0.7rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -148,13 +148,13 @@ main .hero {
 }
 
 main .hero .intro {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 @media only screen and (min-width: 576px) {
   main .hero .intro {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
