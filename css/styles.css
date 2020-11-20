@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Cocogoose', 'Lato', sans-serif;
+  background-color: #f8f8f8;
 }
 
 .c-main {
@@ -299,4 +300,17 @@ main .featured .small {
   main .featured .small {
     font-size: 0.8rem;
   }
+}
+
+
+/** Footer **/
+
+footer p {
+  font-size: .8rem;
+  font-weight: normal;
+}
+
+footer .text {
+  font-size: .7rem;
+  line-height: 1;
 }
