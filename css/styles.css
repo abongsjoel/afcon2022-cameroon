@@ -32,6 +32,11 @@ body {
   padding: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    padding: 0 15%;
+  }
+}
 h2 {
   font-size: 1.8rem;
   font-weight: 900;
@@ -73,7 +78,7 @@ p {
 }
 
 /** Header **/
-header {
+header .mobile {
   position: fixed;
   top: 0;
 }
@@ -90,6 +95,10 @@ header nav a {
 
 header .navbar {
   padding: 0;
+}
+
+header .top-nav a {
+  font-size: .6rem;
 }
 
 /** Main **/
