@@ -68,9 +68,9 @@ p {
     font-size: 2rem;
   }
 
-  h4 {
+  /* h4 {
     font-size: 1.5rem;
-  }
+  } */
 
   p {
     font-size: 1rem;
@@ -213,7 +213,9 @@ main .fixtures .teams {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
+  justify-items: end;
   gap: 10px;
+  /* background-color: red; */
 }
 
 main .featured .checkboard {
