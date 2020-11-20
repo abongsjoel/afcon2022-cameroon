@@ -225,11 +225,6 @@ main .fixture {
     display: none;
   }
 }
-/* @media only screen and (min-width: 905px) {
-  .d-lg-show {
-    display: grid;
-  }
-} */
 
 main .fixtures li {
   font-size: 0.6rem;
@@ -241,13 +236,18 @@ main .fixtures .teams {
   grid-template-rows: auto auto;
   justify-items: start;
   row-gap: 15px;
-  /* background-color: red; */
 }
 
 @media only screen and (min-width: 768px) {
   main .fixtures .teams {
     justify-items: center;
+    padding-bottom: 1px;
+    cursor: pointer;
   }
+}
+
+main .fixtures .see-all {
+  text-decoration: underline;
 }
 
 main .featured .checkboard {
