@@ -33,6 +33,12 @@ body {
   padding: 20px;
 }
 
+a:active,
+a:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 768px) {
   .wrapper {
     padding: 0 15%;
