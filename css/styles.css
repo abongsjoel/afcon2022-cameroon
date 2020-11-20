@@ -255,6 +255,10 @@ main .fixtures .see-all {
   text-decoration: underline;
 }
 
+main .fixtures .hover {
+  border: 2px solid white;
+}
+
 main .featured .player-wrapper {
   display: flex;
 }
