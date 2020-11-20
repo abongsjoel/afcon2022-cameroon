@@ -220,6 +220,17 @@ main .fixture {
   }
 }
 
+@media only screen and (max-width: 905px) {
+  main .d-lg-show {
+    display: none;
+  }
+}
+/* @media only screen and (min-width: 905px) {
+  .d-lg-show {
+    display: grid;
+  }
+} */
+
 main .fixtures li {
   font-size: 0.6rem;
 }
