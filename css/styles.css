@@ -255,19 +255,36 @@ main .fixtures .see-all {
   text-decoration: underline;
 }
 
+main .featured .player-wrapper {
+  display: flex;
+}
+
+main .featured figure {
+  flex: 0 0 100px;
+  margin-right: 20px;
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  main .featured figure {
+    flex: 0 0 150px;
+    margin-right: 10px;
+  }
+}
+
 main .featured .checkboard {
   width: 60px;
   height: 60px;
 }
 
 main .featured .player {
-  width: 120px;
-  height: 120px;
+  width: 90%;
+  height: 90%;
   object-fit: cover;
   object-position: top;
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 10%;
+  left: 10%;
 }
 
 main .featured .small {
