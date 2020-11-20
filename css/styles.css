@@ -101,6 +101,21 @@ header .top-nav a {
   font-size: .6rem;
 }
 
+header .bottom-nav a {
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+header .bottom-nav .btn {
+  border: 4px solid #ec5242;
+  font-weight: 800;
+  margin: 0;
+}
+
+header .logo {
+  width: 50px;
+}
+
 /** Main **/
 main .hero {
   background-color: #daf9ff;
