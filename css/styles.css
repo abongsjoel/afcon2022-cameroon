@@ -34,7 +34,8 @@ body {
 }
 
 a:active,
-a:hover {
+a:hover,
+a.active {
   color: #ec5242;
   text-decoration: none;
 }
