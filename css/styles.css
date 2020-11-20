@@ -267,7 +267,6 @@ main .featured figure {
 
 @media only screen and (min-width: 768px) {
   main .featured figure {
-    flex: 0 0 150px;
     margin-right: 10px;
   }
 }
