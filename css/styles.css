@@ -226,7 +226,7 @@ main .fixture {
   }
 }
 
-@media only screen and (max-width: 905px) {
+@media only screen and (max-width: 925px) {
   main .d-lg-show {
     display: none;
   }
