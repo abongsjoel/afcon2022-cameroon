@@ -38,6 +38,7 @@ body {
     padding: 0 15%;
   }
 }
+
 h2 {
   font-size: 1.8rem;
   font-weight: 900;
@@ -103,13 +104,13 @@ header .navbar {
   padding: 0;
 }
 
-header .top-nav a {
-  font-size: .6rem;
+.bottom-nav a {
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
-.bottom-nav a {
-  font-size: .8rem;
-  font-weight: 700;
+header .top-nav a {
+  font-size: 0.6rem;
 }
 
 .bottom-nav .btn {
@@ -179,15 +180,13 @@ main .date p {
   }
 
   main .content p {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 }
 
 main .welcome {
   max-width: 35rem;
 }
-
-
 
 main .line {
   border-bottom: 2px solid #ec5242;
@@ -302,15 +301,14 @@ main .featured .small {
   }
 }
 
-
 /** Footer **/
 
-footer p {
-  font-size: .8rem;
+footer .copyright p {
+  font-size: 0.8rem;
   font-weight: normal;
 }
 
-footer .text {
-  font-size: .7rem;
+footer .copyright .text {
+  font-size: 0.7rem;
   line-height: 1;
 }
