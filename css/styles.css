@@ -33,13 +33,6 @@ body {
   padding: 20px;
 }
 
-a:active,
-a:hover,
-a.active {
-  color: #ec5242;
-  text-decoration: none;
-}
-
 @media only screen and (min-width: 768px) {
   .wrapper {
     padding: 0 15%;
@@ -106,6 +99,13 @@ header nav a {
   text-decoration: none;
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+a:active,
+a:hover,
+a.active {
+  color: #ec5242;
+  text-decoration: none;
 }
 
 header .navbar {

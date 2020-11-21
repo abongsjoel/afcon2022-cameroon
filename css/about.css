@@ -5,7 +5,6 @@ h4 {
   font-weight: 900;
 }
 
-
 /** Main **/
 
 main .mascot figure {
@@ -19,14 +18,16 @@ main .past-winners figure {
 }
 
 main .past-winners .winners2019 {
-  background-image: linear-gradient(to top, rgba(236, 82, 66, .5), rgba(236, 82, 66, .6)),
-                    url(../assets/algerian-national-team.jpg);
+  background-image:
+    linear-gradient(to top, rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.6)),
+    url(../assets/algerian-national-team.jpg);
   background-size: cover;
 }
 
 main .past-winners .winners2017 {
-  background-image: linear-gradient(to top, rgba(236, 82, 66, .5), rgba(236, 82, 66, .6)),
-                    url(../assets/cameroon-national-team.jpg);
+  background-image:
+    linear-gradient(to top, rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.6)),
+    url(../assets/cameroon-national-team.jpg);
   background-size: cover;
 }
 
