@@ -1,0 +1,13 @@
+/** Main **/
+
+main .select-tickets .step-title::before {
+  content: "•";
+  color:  #ec5242;
+  padding-right: 5px;
+}
+
+main .select-tickets .step-title {
+  border: 1px solid #d3d3d3;
+  height: 3rem;
+  border-radius: 1.5rem;
+}
