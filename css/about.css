@@ -18,7 +18,9 @@ main .welcome {
 
 main .mascot figure {
   border: 1px solid #d3d3d3;
+  max-width: 30rem;
 }
+
 
 main .past-winners figure {
   background-color: #ec5242;
