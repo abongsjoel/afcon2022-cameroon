@@ -1,3 +1,8 @@
+/** General **/
+
+
+
+
 /** Main **/
 
 main .select-tickets .step-title::before {
@@ -6,10 +11,17 @@ main .select-tickets .step-title::before {
   padding-right: 5px;
 }
 
-main .select-tickets .step-title {
+main .step-title {
   border: 1px solid #d3d3d3;
-  height: 3rem;
-  border-radius: 1.5rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  main .step-title {
+    height: 3rem;
+    border-radius: 1.5rem;
+  }
 }
 
 main .select-tickets .table {

@@ -57,6 +57,7 @@ h4 {
 }
 
 h5 {
+  font-size: .5rem;
   font-weight: 700;
 }
 
@@ -75,6 +76,10 @@ p {
     font-size: 2rem;
   }
 
+  h5 {
+    font-size: .8rem;
+  }
+
   p {
     font-size: 1rem;
   }
@@ -83,6 +88,9 @@ p {
 @media only screen and (min-width: 768px) {
   h2 {
     font-size: 3rem;
+  }
+  h5 {
+    font-size: 1rem;
   }
 }
 

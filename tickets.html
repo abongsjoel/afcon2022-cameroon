@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="table shadow">
-          <table>
+          <!-- <table>
             <thead class="font-weight-bold">
               <th>Ticket</th>
               <th>Match Day 1</th>
@@ -99,7 +99,7 @@
                 <td class="c-sec font-weight-bold">FCFA 50,000<br><i class="far fa-futbol c-grey pt-2"></i></td>
               </tr>
             </tbody>
-          </table>
+          </table> -->
         </div>
     </section>
 
@@ -114,7 +114,7 @@
       <div class="line mx-auto my-3"></div>
       <div class="d-flex justify-content-center">
         <div class="step1 d-inline-block my-4">
-          <h5 class="step-title c-sec d-flex align-items-center px-3">
+          <h5 class="step-title c-sec d-flex align-items-center px-2">
             STEP 2 
             <span class="c-main pl-3 font-weight-normal">
               Please select the team you want to see play
@@ -123,27 +123,35 @@
         </div>
       </div>
       <div>
-        <table>
+        <table class="group-a mb-4">
           <thead class="font-weight-bold">
             <th>Group A</th>
           </thead>
           <tbody class="bg-white">
             <tr>
               <td>
-                <form class="d-flex justify-content-center align-items-end">
-                  <label for="cameroon" class="pl-5 pr-2">Cameroon</label>
-                  <input type="radio" id="cameroon" name="country" value="cameroon">
-                  <label for="egypt" class="pl-5 pr-2">Egypt</label>
-                  <input type="radio" id="egypt" name="country" value="egypt">
-                  <label for="senega" class="pl-5 pr-2">Senega</label>
-                  <input type="radio" id="senega" name="country" value="senega">
-                  <label for="south-africa" class="pl-5 pr-2">South Africa</label>
-                  <input type="radio" id="south-africa" name="country" value="south-africa">
+                <form>
+                  <label class="px-4 py-1">
+                    Cameroon
+                    <input type="radio" name="country" value="cameroon">
+                  </label>
+                  <label class="px-4 py-1">
+                    Egypt
+                    <input type="radio" name="country" value="egypt">
+                  </label>
+                  <label class="px-4 py-1">
+                    Senega
+                    <input type="radio" name="country" value="senega">
+                  </label>
+                  <label class="px-4 py-1">South&nbsp;Africa
+                    <input type="radio" name="country" value="south-africa">
+                  </label>
                 </form>
               </td>
             </tr>
           </tbody>
         </table>
+       
       </div>
     </section>
 
