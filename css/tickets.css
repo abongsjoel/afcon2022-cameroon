@@ -11,3 +11,17 @@ main .select-tickets .step-title {
   height: 3rem;
   border-radius: 1.5rem;
 }
+
+table, th, td {
+  border: 1px solid #d3d3d3;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  vertical-align: center;
+  padding: 10px;
+}
