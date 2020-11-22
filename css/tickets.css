@@ -22,6 +22,10 @@ table {
 
 th, td {
   text-align: center;
-  vertical-align: center;
-  padding: 10px;
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+.fa-futbol {
+  font-size: .7rem;
 }
