@@ -12,12 +12,23 @@ main .select-tickets .step-title {
   border-radius: 1.5rem;
 }
 
+main .select-tickets .table {
+  padding: .3rem;
+  background-color: #d3d3d3;
+  background-image: repeating-linear-gradient(
+    135deg, #ec5242 0px, #ec5242 5px, #d3d3d3 5px, #d3d3d3 10px, rgb(89, 141, 255) 10px, rgb(89, 141, 255) 15px, #d3d3d3 15px, #d3d3d3 20px);
+}
+
 table, th, td {
   border: 1px solid #d3d3d3;
 }
 
 table {
   width: 100%;
+}
+
+th {
+  background-color: #f8f8f8;
 }
 
 th, td {
