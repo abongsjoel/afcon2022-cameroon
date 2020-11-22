@@ -109,87 +109,42 @@
       </div>
     </div>
 
-    <section class="featured bg-white py-5 wrapper">
-      <h3 class="c-main text-center">Featured Players</h3>
+    <section class="select-teams py-5 wrapper bg-white d-flex flex-column justify-content-center w-100">
+      <h3 class="c-main text-center">Select Your Team</h3>
       <div class="line mx-auto my-3"></div>
-      <div class="row no-gutters justify-content-between">
-        <div class="col-12 col-md-6 player-wrapper my-4">
-          <figure>
-            <img class="checkboard" src="assets/checkboard.png" alt="checkboard">
-            <img class="player" src="assets/mane.jpg" alt="sadio mane">
-          </figure>
-          <div class="pl-2">
-            <h4 class="my-2">Sadio Mane</h4>
-            <p class="c-sec">Country: Senega | Club: Liverpool</p>
-            <div class="line-short my-3"></div>
-            <p class="small">Crowned the African Footballer of the Year in January, Mane was entirely deserving of this award.</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 player-wrapper my-4">
-          <figure>
-            <img class="checkboard" src="assets/checkboard.png" alt="checkboard">
-            <img class="player" src="assets/salah.jpg" alt="mohamed salah">
-          </figure>
-          <div class="pl-2">
-            <h4 class="my-2">Mohamed Salah</h4>
-            <p class="c-sec">Country: Egypt | Club: Liverpool</p>
-            <div class="line-short my-3"></div>
-            <p class="small">Salah continues to achieve a measure of excellence in the Premier League that few other players can match.</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 player-wrapper my-4 d-none d-md-flex">
-          <figure>
-            <img class="checkboard" src="assets/checkboard.png" alt="checkboard">
-            <img class="player" src="assets/hakimi.jpg" alt="mohamed salah">
-          </figure>
-          <div class="pl-2">
-            <h4 class="my-2">Achraf Hakimi</h4>
-            <p class="c-sec">Country: Moroco | Club: Inter Milan</p>
-            <div class="line-short my-3"></div>
-            <p class="small">His 10 assists puts him joint fourth in the Bundesliga, while he’s also chipped in with three goals in the league</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 player-wrapper my-4 d-none d-md-flex">
-          <figure>
-            <img class="checkboard" src="assets/checkboard.png" alt="checkboard">
-            <img class="player" src="assets/mahrez.jpg" alt="sadio mane">
-          </figure>
-          <div class="pl-2">
-            <h4 class="my-2">Riyad Mahrez</h4>
-            <p class="c-sec">Country: Algeria | Club: Man City</p>
-            <div class="line-short my-3"></div>
-            <p class="small">Already added to last season’s trophy haul with a League Cup victory already this term.</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 player-wrapper my-4 d-none d-md-flex">
-          <figure>
-            <img class="checkboard" src="assets/checkboard.png" alt="checkboard">
-            <img class="player" src="assets/aubameyang.jpg" alt="mohamed salah">
-          </figure>
-          <div class="pl-2">
-            <h4 class="my-2">Pierre-Emerick Aubameyang</h4>
-            <p class="c-sec">Country: Gabon | Club: Arsenal</p>
-            <div class="line-short my-3"></div>
-            <p class="small">In another tricky campaign, he has again demonstrated his consistency in front of goal with a 1i7-goal haul.</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 player-wrapper my-4 d-none d-md-flex">
-          <figure>
-            <img class="checkboard" src="assets/checkboard.png" alt="checkboard">
-            <img class="player" src="assets/ndidi.jpg" alt="sadio mane">
-          </figure>
-          <div class="pl-2">
-            <h4 class="my-2">Wilfred Ndidi</h4>
-            <p class="c-sec">Country: Nigeria | Club: Lichester City</p>
-            <div class="line-short my-3"></div>
-            <p class="small">Finest African defensive midfielder—and best non-attacker—in the world today</p>
-          </div>
+      <div class="d-flex justify-content-center">
+        <div class="step1 d-inline-block my-4">
+          <h5 class="step-title c-sec d-flex align-items-center px-3">
+            STEP 2 
+            <span class="c-main pl-3 font-weight-normal">
+              Please select the team you want to see play
+            </span>
+          </h5>
         </div>
       </div>
-      <button type="button" class="btn c-main bolder btn-block border py-2 my-4 bolder d-md-none">
-        MORE
-        <i class="fas fa-angle-down c-sec"></i>
-      </button>
+      <div>
+        <table>
+          <thead class="font-weight-bold">
+            <th>Group A</th>
+          </thead>
+          <tbody class="bg-white">
+            <tr>
+              <td>
+                <form class="d-flex justify-content-center align-items-end">
+                  <label for="cameroon" class="pl-5 pr-2">Cameroon</label>
+                  <input type="radio" id="cameroon" name="country" value="cameroon">
+                  <label for="egypt" class="pl-5 pr-2">Egypt</label>
+                  <input type="radio" id="egypt" name="country" value="egypt">
+                  <label for="senega" class="pl-5 pr-2">Senega</label>
+                  <input type="radio" id="senega" name="country" value="senega">
+                  <label for="south-africa" class="pl-5 pr-2">South Africa</label>
+                  <input type="radio" id="south-africa" name="country" value="south-africa">
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <section class="partners jumbotron jumbotron-fluid bg-main">

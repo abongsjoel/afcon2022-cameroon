@@ -54,3 +54,7 @@ main .divider .fa-chevron-down {
   transform: rotate(-45deg);
   font-size: .8rem;
 }
+
+main .select-teams td {
+  height: 75px;
+}
