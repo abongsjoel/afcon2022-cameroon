@@ -4,9 +4,9 @@
 
 ![screenshot](../features/screenshot.png)
 
-In this project, I built a model for a website of the <a href="https://en.wikipedia.org/wiki/Africa_Cup_of_Nations">African cup of Nations</a>, a football tournament due to be hosted in Cameroon at the beginning of 2022. This project serves as a capstone project for the completion of the HTML and CSS curriculum of <a href="https://www.microverse.org">Microverse</a>
+In this project, I built a model for a website for the <a href="https://en.wikipedia.org/wiki/Africa_Cup_of_Nations">African cup of Nations</a>, a football tournament due to be hosted in Cameroon at the beginning of 2022. This project serves as a capstone project for the completion of the HTML and CSS curriculum of <a href="https://www.microverse.org">Microverse</a>
 
-The website is built using semantic HTML5 elements, Bootstrap4 as well as plain CSS3. The pages starts with a header section that uses the Bootstrap4 navbar classes to make it responsive. The main part of the pages contain a set of HTML5 section elements that are aligned differently on different screen sizes using Bootstrap4 Grid system, Flexbox as well as the CSS box model (margin, padding, width, height).
+The website is built using semantic HTML5 elements, Bootstrap4 as well as plain CSS3. The pages start with a header section that uses the Bootstrap4 navbar classes to make it responsive. The main part of the pages contain a set of HTML5 section elements that are aligned differently on different screen sizes using Bootstrap4 Grid system, Flexbox as well as the CSS box model (margin, padding, width, height).
 
 ## Live Demo 
 
