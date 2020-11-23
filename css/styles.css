@@ -260,7 +260,13 @@ main .fixture {
   }
 }
 
-@media only screen and (max-width: 1058px) {
+@media only screen and (max-width: 1200px) {
+  main .d-xl-show {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 948px) {
   main .d-lg-show {
     display: none;
   }
@@ -293,6 +299,10 @@ main .fixtures .see-all {
 main .fixture:hover {
   border: 2px solid white;
 }
+
+main .fixtures li {
+  font-size: .7rem;
+  }
 
 main .featured .player-wrapper {
   display: flex;
