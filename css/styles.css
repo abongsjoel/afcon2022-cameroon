@@ -33,9 +33,15 @@ body {
   padding: 20px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 576px) {
   .wrapper {
     padding: 0 15%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    padding: 0 20%;
   }
 }
 
@@ -254,7 +260,7 @@ main .fixture {
   }
 }
 
-@media only screen and (max-width: 925px) {
+@media only screen and (max-width: 1058px) {
   main .d-lg-show {
     display: none;
   }
