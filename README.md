@@ -17,7 +17,7 @@ The website is built using semantic HTML5 elements, Bootstrap4 as well as plain 
 
 - [Visit Page](https://abongsjoel.github.io/afcon2022-cameroon/)
 
-## Built Wit
+## Built With
 - HTML5
 - Bootstrap4
 - CSS3
