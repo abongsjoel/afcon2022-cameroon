@@ -152,13 +152,21 @@ header .top-nav a {
 
 /** Main **/
 main .hero {
-  background: #daf9ff url(../assets/sam-trans4.png);
+  background: #daf9ff url(../assets/sam-small-trans.png);
+  background-size: cover;
   height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding-top: 100px;
   padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  main .hero {
+    background: #daf9ff url(../assets/sam-trans.png);
+    background-size: cover;
+  }
 }
 
 main .hero .intro {
@@ -276,7 +284,7 @@ main .fixtures .see-all {
   text-decoration: underline;
 }
 
-main .fixtures .hover {
+main .fixture:hover {
   border: 2px solid white;
 }
 
