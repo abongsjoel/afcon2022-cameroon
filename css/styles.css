@@ -272,10 +272,6 @@ main .fixture {
   }
 }
 
-main .fixtures li {
-  font-size: 0.6rem;
-}
-
 main .fixtures .teams {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -301,8 +297,8 @@ main .fixture:hover {
 }
 
 main .fixtures li {
-  font-size: .7rem;
-  }
+  font-size: 0.7rem;
+}
 
 main .featured .player-wrapper {
   display: flex;
