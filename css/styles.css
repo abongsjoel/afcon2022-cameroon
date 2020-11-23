@@ -338,6 +338,10 @@ main .featured .small {
 
 /** Footer **/
 
+footer .copyright {
+  width: 85%;
+}
+
 footer .copyright p {
   font-size: 0.8rem;
   font-weight: normal;
