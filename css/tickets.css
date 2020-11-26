@@ -1,6 +1,6 @@
 /** Main **/
 
-main .select-tickets .step-title::before {
+main .step-title::before {
   content: "•";
   color: #ec5242;
   padding-right: 5px;
