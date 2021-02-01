@@ -45,7 +45,7 @@ The website is built using semantic HTML5 elements, Bootstrap4 as well as plain 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/abongsjoel/tic-tac-toe/issues).
+Feel free to check the [issues page](https://github.com/abongsjoel/afcon2022-cameroon/issues).
 
 ## Show your support
 
