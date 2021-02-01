@@ -41,9 +41,17 @@ The website is built using semantic HTML5 elements, Bootstrap4 as well as plain 
 - [The Odin Project](https://www.theodinproject.com)
 - [w3schools](https://www.w3schools.com)
 
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/abongsjoel/tic-tac-toe/issues).
+
 ## Show your support
+
 Give a ⭐️ if you like this project!
 
 ## License
+
   <p>This project is <a href="../features/LICENSE">MIT</a> licensed.</p>
 
